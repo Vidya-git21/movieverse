@@ -68,10 +68,35 @@
   }
 }
 }
-.first-line{
-  font-size: 12px;
+.details{
+  font-size: 14px;
+  color: gray;
 }
-.alignment{
+.genre-btn {
+  border-radius: 20px;
+  font-weight: 500;
+  padding: 4px 12px;
+  background-color: gray;
+}
+.paragraph-container {
   display: flex;
-  align-items: center;
+  justify-content: space-between; 
+  align-items: center; 
+  gap: 20px; 
+}
+
+.paragraph-container p {
+  flex: 1;
+  margin: 0; 
+}
+.paragraph-container2 {
+  display: flex;
+  justify-content: space-between; 
+  align-items: center; 
+  gap: 20px; 
+}
+
+.paragraph-container2 p {
+  flex: 1; 
+  margin: 0; 
 }

@@ -1,4 +1,3 @@
-
 import React, { useState, useEffect } from "react";
 import { CiStar } from "react-icons/ci";
 import { useNavigate } from "react-router-dom";
@@ -10,6 +9,7 @@ const Card = () => {
   const [search, setSearch] = useState("");
   const [searchTerm, setSearchTerm] = useState("");
   const navigate = useNavigate();
+
 
   const getMovie = async () => {
     try {
